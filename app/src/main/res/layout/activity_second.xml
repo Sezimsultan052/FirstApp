@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/etSecond"
+        android:layout_marginTop="64dp"
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter"
+        />
+
+    <Button
+        android:id="@+id/btnSecond"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/etSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_first_activity"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

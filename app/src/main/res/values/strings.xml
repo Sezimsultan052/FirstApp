@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="open_second_activity">open second activity</string>
+    <string name="enter">enter value</string>
+    <string name="open_first_activity">open first activity</string>
+    <string name="empty_field">Empty field</string>
+</resources>
